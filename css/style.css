@@ -1,0 +1,109 @@
+body,
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url('../images/bg-green.jpg');
+    box-sizing: border-box;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+
+header {
+    height: 115px;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px;
+    margin-bottom: 180px;
+    text-align: center;
+    font-family: "Trirong", serif;
+}
+
+.border_country {
+    margin-left: 3%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.country-holder {
+    padding: 2%;
+}
+
+.a {
+    background-color: black;
+    border-top: white solid 1px;
+    border-bottom: white solid 1px;
+}
+
+#selector {
+    height: 30px;
+}
+
+main {
+    flex: 1;
+    color: #333333;
+    padding: 20px;
+}
+
+.card {
+    margin-top: 10px;
+    height: 550px;
+    opacity: 70%;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+.btn {
+    margin: 15%;
+    background-color: white;
+    color: black;
+    border: #f8f9fa 2px solid;
+}
+
+.btn_search {
+    background-color: black;
+    color: white;
+    border: #f8f9fa 2px solid;
+}
+
+.country-holder {
+    background: black;
+    opacity: 70%;
+    color: white;
+    border: 5px white solid;
+    border-radius: 20px;
+    margin-bottom: 70px;
+}
+
+.mapContent {
+    height: 400px;
+    width: 100%;
+}
+
+footer {
+    color: #6c757d;
+    padding: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+    #selectors_div {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .country-holder {
+        margin-top: 10px;
+    }
+
+    #selectors_div {
+        display: none;
+    }
+}
